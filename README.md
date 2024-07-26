@@ -46,6 +46,13 @@ The project leverages Object-Oriented Programming principles to ensure a modular
 3. Book tickets for the desired events.
 4. View and manage your bookings.
 
+# Build and Run
+## Use Case 1: Customer mode with customer id and correct password 
+$java TicketManagementEngine --customer 1 abc@1 ../assets/customer.csv ../assets/concert.csv ../assets/bookings.csv ../assets/venue_mcg.txt 
+## Use Case 2: Customer mode with no customer id and password 
+## Use Case 3: Admin Menu
+$java TicketManagementEngine --admin ../assets/customer.csv ../assets/concert.csv ../assets/bookings.csv ../assets/venue_mcg.txt ../assets/venue_marvel.txt
+
 # Contributing
 Contributions are welcome! Please follow these steps to contribute:
 1. Fork this repository.
