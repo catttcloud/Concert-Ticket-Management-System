@@ -1,14 +1,14 @@
 # Concert Ticket Management System
 This Java-based application is designed to facilitate the management and booking of concert tickets. It offers functionalities for both administrators and customers, ensuring a smooth and efficient ticketing process.
 
-# Table of Contents
-- Features
-- Technologies Used
-- Installation
-- Usage
-- Contributing
-- License
-- Contact
+## Overview
+
+This project is a concert ticket management system designed to handle various aspects of ticket booking and management. The system is organized into different branches, each serving a specific purpose:
+
+- **`main`**: Contains the core implementation and documentation.
+  - Files: `README.md`, `TicketManagementEngine.java`
+- **`feature`**: Integrates features from other branches and serves as the primary development branch.
+- **`assets`**: Contains default information and assets used in the project.
 
 # Features
 ## Admin Panel
@@ -21,6 +21,18 @@ This Java-based application is designed to facilitate the management and booking
 - View and manage bookings
 ## Technologies Used
 - Java: Core programming language
+
+## Object-Oriented Programming (OOP) Design
+
+The project leverages Object-Oriented Programming principles to ensure a modular, scalable, and maintainable codebase. Key OOP concepts used include:
+
+- **Encapsulation**: Data is encapsulated within classes, providing a clear interface for interacting with objects while hiding internal implementation details. For example, the `Ticket` class encapsulates ticket-related data and methods.
+
+- **Inheritance**: The system uses inheritance to extend base classes into more specialized subclasses. For instance, `Admin` and `Customer` classes inherit from a common `User` base class, sharing common properties and behaviors.
+
+- **Polymorphism**: Methods are designed to be polymorphic, allowing objects to be treated as instances of their parent class. This is used in the system to handle different types of users with a common interface.
+
+- **Abstraction**: Abstract classes and interfaces define common methods and properties that derived classes must implement, promoting code reuse and reducing complexity. For example, the `FileHandler` interface abstracts file operations that are implemented differently by `FileHandlerImpl`.
 
 # Usage
 ## Admin
